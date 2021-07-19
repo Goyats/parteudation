@@ -1,0 +1,237 @@
+/*firstpart*/
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 300px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background-color: #6497b1;
+  height: 580px;
+}
+.imgsection{
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -470px;
+  z-index:1.9;
+
+ 
+}
+
+
+/*firstpart*/
+
+/*experince*/
+#experince{
+	margin-left: 300px;
+	 position: absolute;
+	 margin-top: 1700px;
+}
+.firstexp{
+	width: 100%;
+}
+.first{
+	margin-left: 410px;
+	 font-size: 40px;
+}
+.item{
+	margin-left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mediap{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	margin-top: 400px;
+	 margin-left: 300px; 
+	background-color: #b58a59;
+}
+
+.connect{
+	position: absolute;
+	background-color: #2d516e;
+	width: 50%;
+	height: 200px;
+	margin-top: 240px;
+	margin-left: 40px;
+	border-radius: 3px 10px 20px 40px;
+}
+#big{
+	position: absolute;
+	font-size: 400px;
+	margin-top: -170px;
+}
+#big:hover{
+	z-index: 1;
+
+	color: #3698d1;
+	transition: 4s;
+	  transform: rotate(-20deg);
+}
+#small:hover{
+	color: #6344eb;
+	transition: 3s;
+}
+
+#small{
+	position: absolute;
+	font-size: 100px;
+	margin-left: 190px;
+}
+.connect .phone{
+	margin-top: 45px;
+	margin-left: 110px;
+}
+.sociallink{
+	position: absolute;
+	margin-top: 90px;
+
+	width: 40%;
+	height: 200px;
+	margin-left: 700px;
+
+}
+.facebook{
+	width: 52%;
+	height: 100px;
+	background-size: cover;
+	margin-bottom: 2px;
+	background-image: url("facebook.png");
+}
+.facebook:hover{
+	transition: 3s;
+	position: absolute;
+	width: 52%;
+	height: 200px;
+	background-size: cover;
+	margin-bottom: 2px;
+	background-image: url("facebook.png");
+}
+.youtube{
+	width: 50%;
+	height: 100px;
+	background-size: 80%;
+	background-image: url("youtube.png");
+	margin-bottom: 2px;
+	background-repeat: no-repeat;
+}
+.twiter:hover{
+	transition: 3s;
+	position: absolute;
+	width: 52%;
+	height: 200px;
+	background-size: cover;
+	margin-bottom: 2px;
+	background-image: url("twitter.png");
+}
+.twiter{
+	width: 52%;
+	padding-bottom: 3px;
+	height: 100px;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	margin-bottom: 2px;
+	background-image: url("twitter.png");
+}
+.instagram{
+	width: 50%;
+	height: 100px;
+	background-size: 90%;
+background-repeat: no-repeat;
+	margin-bottom: 2px;
+	background-image: url("instagram.jpg");
+}
+.yahoo{
+	width: 52%;
+	height: 130px;
+	
+	background-size: 90%;
+background-repeat: no-repeat;
+	margin-bottom: 2px;
+	background-image: url("yahoo.jpg");
+}
